@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  plugins: ['~/plugins/global.js', '~/plugins/socket.js'],
+  compatibilityDate: '2025-02-01',
 })
